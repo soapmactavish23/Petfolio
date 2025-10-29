@@ -9,15 +9,15 @@ namespace Petfolio.Application.UseCases.Pets.GetAll
         {
             return new ResponseAllPetJson
             {
-                Pets = new List<ResponseShortPetJson>
-                {
+                Pets =
+                [
                     new ResponseShortPetJson
                     {
                         Id = 1,
                         Name = "Charlie",
                         Type = Communication.Enum.PetType.Dog,
                     }
-                },
+                ],
             };
         }
     }

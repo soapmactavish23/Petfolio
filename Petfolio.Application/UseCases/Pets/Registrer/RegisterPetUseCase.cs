@@ -6,12 +6,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Petfolio.Application.UseCases.Pet.Registrer
+namespace Petfolio.Application.UseCases.Pets.Registrer
 {
     public class RegisterPetUseCase
     {
 
-        public ResponseRegisterPetJson Execute(RequestRegisterPetJson request)
+        public ResponseRegisterPetJson Execute(RequestPetJson request)
         {
             return new ResponseRegisterPetJson
             {
